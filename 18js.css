@@ -1,0 +1,56 @@
+* {margin:0; overflow: hidden; box-sizing: border-box;}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-evenly;
+}
+.padre {
+    background-color: #f24c4c;
+    border: 10px solid #ec9b3b;
+    width: 90vw;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+#padre1 {height: 50vh;}
+.padre2 {height: 25vh;}
+
+.hijoA {
+    background-color: #293462;
+    border: 8px solid #f7d716;
+    font-size: 25px;
+    color:#f7d716;
+
+    width: 35%;
+    height: 30%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+.hijoB {
+    background-color: #293462;
+    border: 8px solid #f7d716;
+    font-size: 25px;
+    color:#f7d716;
+
+    width: 40%;
+    height: 50%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+.hijoB:active {
+    background-color: #f7d716;
+    border: 8px solid #293462;
+    color:#293462;
+}
